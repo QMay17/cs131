@@ -1,0 +1,97 @@
+1) Making a directory for Assignment1
+mkdir Assignment1
+cd Assignment1 // getting into the Assignment1 directory
+
+Creating a file Assignment1.txt
+touch Assignment1.txt
+vi Assignment1.txt  // opening the text file to edit
+
+2) Echo current shell
+[maysp24@sjsu Assignment1]$ echo $SHELL
+/bin/bash
+
+2) Echo current home directory path
+[maysp24@sjsu Assignment1]$ echo $HOME
+/mnt/scratch/FA23_CS131_Ashish/maysp24
+
+3) UID = UserID and GroupID
+[maysp24@sjsu Assignment1]$ cat /etc/group  // the command to find out the UserID and GroupID
+My UserID = 1236
+My GroupID = 77
+My UserName = maysp24
+
+4) Creating myDir & removing my write permission
+mkdir myDir   // creating myDir directory
+[maysp24@sjsu Assignment1]$ chmod u-w myDir
+[maysp24@sjsu Assignment1]$ ls -ltr
+total 16
+drwxrwxr-x 2 maysp24 maysp24 4096 Feb 25 22:38 myDir3
+dr-xrwxr-x 2 maysp24 maysp24 4096 Feb 25 22:38 myDir
+drwxrwxr-x 2 maysp24 maysp24 4096 Feb 25 22:39 myDir2
+-rw-rw-r-- 1 maysp24 maysp24 1451 Feb 29 13:29 Assignment1.txt
+
+From this temp directory, are you allowed to cd in that directory? Can you "ls" it?  Can you "ls -l" it? Can you create files under it?
+Yes, I can cd in myDir. 
+Yes, I can ls. However, as there is no file created, I can't see the list. 
+Yes, I can ls -l. The output is "total 0".
+No, I cannot create file in that directory. 
+
+5) Creating myDir2 & myDir3
+mkdir myDir2   // creating myDir2 directory
+mkdir myDir3   // creating myDir3 directory
+
+6) Creating myFile.txt in myDir2 and moving to myDir3
+cd myDir2          // going into myDir2
+touch myFile.txt   // creating myFile.txt file in myDir2
+
+[maysp24@sjsu myDir2]$ ls
+myFile.txt
+[maysp24@sjsu myDir2]$ cd ..
+
+Moving myFile.txt from myDir2 to myDir3
+[maysp24@sjsu Assignment1]$ mv myDir2/myFile.txt myDir3/
+[maysp24@sjsu Assignment1]$ ls
+Assignment1.txt  myDir  myDir2  myDir3
+[maysp24@sjsu Assignment1]$ cd myDir2
+[maysp24@sjsu myDir2]$ ls
+[maysp24@sjsu myDir2]$ cd ..
+[maysp24@sjsu Assignment1]$ cd myDir3
+[maysp24@sjsu myDir3]$ ls
+myFile.txt
+
+
+6) Finding the total amount of RAM/ Memory
+Find the total amount of RAM/Memory in the IBM VM using the 'free' command. Display the amount of memory in mebibytes.
+[maysp24@sjsu ~]$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       32581       19529        3569       19257       33759
+Swap:          4119           0        4119
+
+9) Identify the operating system version. Which file under /etc/ contains this information?
+[maysp24@sjsu ~]$ cat /etc/os-release file
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+os-release file contains the information about the operating system version.
+
+10) What is the permission (given to all users) for the file containing the OS version information   
+[maysp24@sjsu ~]$ ls -l /etc/os-release
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+
+Read, Write and Execute permission is given to all users. 
+ 
