@@ -1,0 +1,90 @@
+1. find /etc -type f > one.txt 2> two.txt
+a. The above command file all the files in /etc directory and list the output in one.txt file and errors in two.txt
+find /etc -type f       // find all the files in /etc directory
+>                       // Standard output
+> one.txt               // list all the files found in /etc directory
+2>                      // Standard Error
+2> two.txt              // If any error occurs during the search, list the errors in two.txt file
+b. one.txt file has all the files found in /etc directory.
+   two.txt file has all the errors occur during the search.
+
+
+2. As per the Dataset, the Top 3 [Month, Year] with the most number of YouTube channels created were :
+March,2006 with 15 channels
+July,2014 with 13 channels
+August,2014 with 12 channels
+
+The command:
+sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv   // sort by the year and month
+cut -d ',' -f 20,21                                     // get the year and month column
+uniq -c                                                 // show the count of the year,month
+sort -nr                                                // sort the result so it's easier to find the most number
+
+
+3. ps -u maysp24 shows all the processes owned by me.
+[maysp24@sjsu cs131]$ ps -u maysp24
+    PID TTY          TIME CMD
+3311255 ?        00:00:02 systemd
+3311257 ?        00:00:00 (sd-pam)
+3311264 ?        00:00:00 sshd
+3311265 pts/1    00:00:00 bash
+3314311 ?        00:00:00 sshd
+3314312 pts/4    00:00:00 bash
+3330363 pts/1    00:00:00 ps
+
+
+
+4.b. When the file.txt is open in another terminal using vi command …
+[maysp24@sjsu cs131]$ ps -u maysp24
+    PID TTY          TIME CMD
+3311255 ?        00:00:02 systemd
+3311257 ?        00:00:00 (sd-pam)
+3311264 ?        00:00:00 sshd
+3311265 pts/1    00:00:00 bash
+3314311 ?        00:00:00 sshd
+3314312 pts/4    00:00:00 bash
+*** 3330868 pts/4    00:00:00 vim ***
+3330884 pts/1    00:00:00 ps
+
+
+d. When the file.txt is closed in another terminal, there is no PID for vim because vim has been terminated. 
+[maysp24@sjsu cs131]$ ps -u maysp24
+    PID TTY          TIME CMD
+3311255 ?        00:00:02 systemd
+3311257 ?        00:00:00 (sd-pam)
+3311264 ?        00:00:00 sshd
+3311265 pts/1    00:00:00 bash
+3314311 ?        00:00:00 sshd
+3314312 pts/4    00:00:00 bash
+3331572 pts/1    00:00:00 ps
+
+
+5. The init is the first process that the kernel executes in Linux. It has a process ID (PID) of 1 and is responsible for initializing the system.
+The output for this command pgrep systemd is:
+1
+2951
+2998
+3746
+86087
+105881
+2060795
+2073814
+2248654
+2379540
+2422345
+2492008
+2808486
+3304023
+3311255
+3312757
+3316769
+3854249
+The numbers are the PIDs of all the processes that have systemd in their name or command.
+
+
+6. In Linux, the command ps aux displays the details of all the running processes, including those run by the other users.
+The output includes information about the USER, process ID (PID), CPU and Memory usage (CPU % and MEM %), and the executed command.
+The command ps aux is mainly used for troubleshooting and system monitoring purposes.
+
+
