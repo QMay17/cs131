@@ -1,0 +1,32 @@
+1. Filter and sort for the highest monthly earner from the United States
+grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1
+grep "United States" Global\ YouTube\ Statistics.csv	// getting lines that have “United States”
+sort -t ',' -k16n					// sort the lines that have “United States” based on “highest monthly income” (n = numerically)
+cut -d ',' -f 2,8,16					// get columns 2 (YouTuber), 8 (Country), and 16 (highest monthly income)
+tail -1							// show the highest monthly earner 
+
+// the highest monthly earner from the United States
+DaFuq!?Boom!,United States,9200000
+
+// the highest monthly earner from the United Kingdom
+Woody & Kleiny,United Kingdom,2000000
+
+// the highest monthly earner from India
+T-Series,India,9000000
+
+
+2. Filter and sort the subscribers for the Sports Category
+grep "Sports" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1
+grep "Sports" Global\ YouTube\ Statistics.csv	// getting lines that have “Sports”
+sort -t ',' -k3n				// sort the lines that have “Sports” based on “subscribers number” (n = numerically)
+cut -d ',' -f 3,5,6				// get columns 3 (Subscribers number), 5 (Category), and 6 (Channel title)
+tail -1						// show the highest subscribed channel
+
+// the highest number of subscribers in the Sports Category
+96000000,Sports,WWE
+
+// the highest number of subscribers in the Education Category
+68200000,Education,Pinkfong Baby Shark - Kids' Songs & Stories
+
+// the highest number of subscribers in the Entertainment Category
+166000000,Entertainment,MrBeast

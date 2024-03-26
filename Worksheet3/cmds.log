@@ -1,0 +1,882 @@
+    1  exit
+    2  ls
+    3  pwd
+    4  exit
+    5  pwd
+    6  wget www.github.com
+    7  history
+    8  history > cmds.log
+    9  ls
+   10  cat cmds.log
+   11  ls
+   12  cd
+   13  ls
+   14  mkdir Worksheet1
+   15  history
+   16  history > cmds.log
+   17  cat cmds.log
+   18  clear
+   19  cd
+   20  ls
+   21  mkdir cs131
+   22  cd cs131
+   23  mkdir Workshet1
+   24  rm -R Workshet1
+   25  ls
+   26  mkdir Worksheet1
+   27  cd
+   28  wget www.github.com
+   29  cd cs131
+   30  cd Worksheet
+   31  cd Worksheet1
+   32  history > cmds.log
+   33  ls
+   34  git brach
+   35  git branch
+   36  cat cmds.log
+   37  git init
+   38  git branch
+   39  git branch -a
+   40  git branch -r
+   41  cd ..
+   42  git branch
+   43  git branch -a
+   44  cd Worksheet1/
+   45  git status
+   46  git add -a
+   47  git add -A
+   48  git commit -m "Initial Commit"
+   49  git commit -m "first commit"
+   50  git status
+   51  clear
+   52  git init
+   53  git add README.md
+   54  git add -A
+   55  git commit -m "first commit"
+   56  git congig --global maycarolyn2017@gmail.com
+   57  git config --global maycarolyn2017@gmail.com
+   58  git config --global user.email "maycarolyn2017@gmail.com"
+   59  git commit -m "first commit"
+   60  git config --global user.name "QMay17"
+   61  git commit -m "first commit"
+   62  git branch -M main
+   63  git remote add origin https://github.com/QMay17/cs131.git
+   64  git push -u origin main
+   65  git remote -v
+   66  git remote set-url origin https://github.com/QMay17/cs131.git
+   67  git push -u origin main
+   68  ssh maysp24@172.20.25.9
+   69  git push -u origin main
+   70  git init
+   71  git add -A
+   72  git branch -M main
+   73  git remote add origin https://github.com/QMay17/cs131.git
+   74  git push -u origin main
+   75  git branch -M main
+   76  git push -u origin main
+   77  git add -A
+   78  git commit -m "first commit"
+   79  git branch -M main
+   80  git remote add origin https://github.com/QMay17/cs131.git
+   81  git push -u origin main
+   82  ls
+   83  rm -m Worksheet1
+   84  rm -r Worksheet1
+   85  ls
+   86  vim index.html
+   87  rm -r index.html
+   88  rm -r index.html.1 
+   89  ls
+   90  cd cs131
+   91  cd Worksheet1
+   92  ls
+   93  cd .
+   94  cd..
+   95  cd ..
+   96  git init
+   97  git add -A
+   98  git status
+   99  git commit -m "first commit"
+  100  git branch -M main
+  101  git remote add origin https://github.com/QMay17/cs131.git
+  102  git push -u origin main
+  103  git branch
+  104  git bramch -M mastet
+  105  git branch -M master
+  106  git branch
+  107  git remote add origin https://github.com/QMay17/cs131.git
+  108  git push -u origin main
+  109  git push -u origin master
+  110  git push
+  111  git push -u origin master
+  112  wget www.github.com
+  113  git init
+  114  git add -A
+  115  ls
+  116  cd cs131
+  117  git commit -m "first commit"
+  118  git branch -M master
+  119  git remote add origin https://github.com/QMay17/cs131.git
+  120  git push -u origin master
+  121  ls
+  122  cd Worksheet1/
+  123  ls
+  124  cat cmds.log 
+  125  cd ..
+  126  git status
+  127  git add .
+  128  git commit -m "second commit"
+  129  git log --oneline
+  130  git push
+  131  git init
+  132  git add -A
+  133  git commit -m "first commit"
+  134  git branch -M master
+  135  git remote add origin https://github.com/QMay17/cs131.git
+  136  git push -u origin master
+  137  ls
+  138  cd Worksheet1/
+  139  ls
+  140  cat cmds.log 
+  141  cat /etc/passwd
+  142  cat /etc/shadow
+  143  sudo nano /etc/shadow
+  144  su ashish
+  145  cat/etc/group
+  146  cat /etc/group
+  147  man chown
+  148  ls
+  149  chown -R ashish cs131
+  150  ls
+  151  cat /mnt/scratch/FA_CS131_Ashish/ashish/a.txt
+  152  pwd
+  153  ls
+  154  su - aashish
+  155  su - ashish
+  156  exit
+  157  passwd
+  158  ls 
+  159  cat /etc/group
+  160  grep may /etc/group
+  161  clear
+  162  crontab -e
+  163  crontab -l
+  164  crontab
+  165  corntab -e
+  166  crontab -e
+  167  ls
+  168  cat result.txt
+  169  echo man
+  170  man echo
+  171  touch result.txt
+  172  ls
+  173  crontab -l
+  174  crontab -e
+  175  crontab -l
+  176  crontab -e
+  177  crontab -l
+  178  * * * * * echo printing this line at `date` >> result.txt
+  179  crontab * * * * * echo printing this line at `date` >> result.txt
+  180  cronjob
+  181  cronjob -l
+  182  cornjob -l
+  183  clear
+  184  ls
+  185  cd cs131
+  186  mkdir assignment 2
+  187  git add .
+  188  git commit -m "testing"
+  189  ls -ltr
+  190  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  191  grep 'United States' Global YouTube Statistics.csv 
+  192  ls
+  193  gre[ 'United States' Global\ YouTube\ Statistics.csv ; 
+  194  vi 'Global YouTube Statistics.csv'
+  195  grep 'United States' 'Global YouTube Statistics.csv'
+  196  grep 'Music''Global YouTube Statistics.csv'
+  197  grep 'Music' 'Global YouTube Statistics.csv'
+  198  wc -l 'Music' 'Global YouTube Statistics.csv'
+  199  grep 'Music' 'Global YouTube Statistics.csv' > counts.txt
+  200  wc -l counts.txt 
+  201  vi counts.txt 
+  202  clear
+  203  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  204  ls
+  205  cd cs131
+  206  ls
+  207  cd
+  208  cat counts.txt
+  209  wc counts.txt
+  210  clearear
+  211  clear
+  212  cd spotify
+  213  spotify-2023.csv
+  214  clear
+  215  mkdir emptyDir
+  216  ls -latr
+  217  cd emptyDir/
+  218  ls -latr
+  219  cd
+  220  rmdir emptyDir/
+  221  ls
+  222  rm -rf Global\ YouTube\ Statistics.csv.1
+  223  ls
+  224  rm -rf counts.txt
+  225  rm -rf results.txt
+  226  ls
+  227  rm -rf result.txt
+  228  ls
+  229  clear
+  230  ls
+  231  grep "United States" Global\ YouTube\ Statistics.csv 
+  232  wc -l
+  233  grep "Music" Global\ YouTube\ Statistics.csv 
+  234  grep "Music" Global\ YouTube\ Statistics.csv | wc -lw
+  235  grep "Music" Global\ YouTube\ Statistics.csv | wc -l
+  236  grep "Music" Global\ YouTube\ Statistics.csv > counts.txt
+  237  ls
+  238  mv counts.txt /cs131
+  239  rmdir counts.txt
+  240  rm counts.txt
+  241  ls
+  242  clear
+  243  cd cs131/
+  244  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  245  grep "United States" Global\ YouTube\ Statistics.csv 
+  246  clear
+  247  grep "Music" Global\ YouTube\ Statistics.csv 
+  248  grep "Music" Global\ YouTube\ Statistics.csv | wc -lw
+  249  grep "Music" Global\ YouTube\ Statistics.csv > counts.txt
+  250  vi counts.txt
+  251  vi counts
+  252  ls
+  253  rm 2
+  254  rmdir 2
+  255  rmdir assignment
+  256  vi counts.txt 
+  257  ls
+  258  mkdir Worksheet2
+  259  cd Worksheet2
+  260  history > cmds.log
+  261  cat cmds.log 
+  262  clear
+  263  cd
+  264  ls
+  265  cd cs131
+  266  ls
+  267  mv counts.txt Worksheet2/
+  268  ls
+  269  cd Worksheet2
+  270  ls
+  271  vi counts.txt
+  272  cd ..
+  273  git branch
+  274  git status
+  275  git add Worksheet2/
+  276  git status
+  277  git commit -m "Worksheet2"
+  278  git log
+  279  git  log --oneline
+  280  git push
+  281  ls
+  282  cd cs131/
+  283  ls
+  284  cd ..
+  285  ls
+  286  rm Global\ YouTube\ Statistics.csv 
+  287  ls
+  288  cd cs131/
+  289  mkdir Assignment1
+  290  echo `pwd`
+  291  echo $HOME
+  292  echo $SHELL
+  293  /etc/passwd
+  294  cat /etc/group
+  295  clear
+  296  ls
+  297  cd Assignment1/
+  298  touch Assignment1.txt
+  299  ls
+  300  vi Assignment1.txt 
+  301  cd ..
+  302  vi Assignment1/
+  303  cd Assignment1/
+  304  vi Assignment1.txt 
+  305  echo $SHELL
+  306  vi Assignment1.txt 
+  307  echo $HOME
+  308  vi Assignment1.txt
+  309  cat /etc/group
+  310  vi Assignment1.txt 
+  311  clear
+  312  mkdir myDir2
+  313  mkdir myDir3
+  314  mkdir myDir
+  315  ls
+  316  cd myDir2
+  317  touch myFile.txt
+  318  mv myFile.txt myDir3
+  319  ls
+  320  rmdir my
+  321  rmdir myDir3
+  322  rm myDir3 
+  323  ls
+  324  touch myFile.txt
+  325  ls
+  326  /
+  327  ls
+  328  cd cs131
+  329  ls
+  330  cd Assignment1/
+  331  ls
+  332  vi Assignment1.txt 
+  333  chmod man
+  334  chmod --help
+  335  chmod -x myDir
+  336  ls -lr
+  337  ls -ltr
+  338  chmod +x myDir
+  339  chmod -w myDir
+  340  ls -ltr
+  341  chmod +w myDir
+  342  ls -ltr
+  343  chmod u-w myDir
+  344  ls -ltr
+  345  vi Assignment1.txt 
+  346  cler
+  347  clear
+  348  cd myDir
+  349  ls
+  350  ls -l
+  351  touch myFile.txt
+  352  vi myFile.txt
+  353  ls
+  354  cd ..
+  355  vi Assignment1.txt 
+  356  cd myDir2
+  357  ls
+  358  mv myFile.txt myDir3
+  359  ls
+  360  cd ..
+  361  ls
+  362  cd myDir3
+  363  ls
+  364  cd ..
+  365  cd myDir2
+  366  ls
+  367  mv myDir3 myFile.txt
+  368  ls
+  369  vi myFile.txt 
+  370  cd ..
+  371  mv myFile.txt myDir3
+  372  cd myDir2
+  373  mv myDir2/myFile.txt myDir3
+  374  mv ~/myDir2/myFile.txt ~/myDir3/myFile.txt
+  375  mv ~/myDir2/myFile.txt ~/myDir3
+  376  mv myDir2/myFile.txt myDir3/
+  377  ls
+  378  cd ..
+  379  mv myDir2/myFile.txt myDir3/
+  380  ls
+  381  cd myDir2
+  382  ls
+  383  cd ..
+  384  cd myDir3
+  385  ls
+  386  vi myFile.txt 
+  387  cd ..
+  388  vi Assignment1.txt 
+  389  clear
+  390  free
+  391  free man
+  392  $free
+  393  ls
+  394  free
+  395  cd ..
+  396  free
+  397  cd ..
+  398  free
+  399  free -m
+  400  cd cs131/
+  401  cd Assignment1/
+  402  vi Assignment1.txt 
+  403  cd
+  404  /etc/os-release file
+  405  cat /etc/os-release file
+  406  cd cs131/Assignment1/
+  407  vi Assignment1.txt 
+  408  cd 
+  409  ls -ltr
+  410  ls -l /etc/os-release file
+  411  cd cs131/Assignment1/
+  412  vi Assignment1.txt 
+  413  history
+  414  cd cs131/
+  415  cd Assignment1/
+  416  vi Assignment1.txt 
+  417  cd
+  418  ls -l /etc/os-release
+  419  cd cs131/Assignment1/
+  420  history > cmds.log
+  421  ls
+  422  vi cmds.log
+  423  vi Assignment1.txt 
+  424  vi cmds.log 
+  425  vi Assignment1.txt 
+  426  vi cmds.log 
+  427  cd ..
+  428  ls
+  429  git status
+  430  git add Assignment1/
+  431  git status
+  432  git commit -m "Assignment1"
+  433  git push
+  434  exec shellname
+  435  echo $SHELL
+  436  exec zsh
+  437  exec bash
+  438  exec maysp24@sjsu
+  439  exec zsh
+  440  echo $USER
+  441  echo $SHELL
+  442  cat file
+  443  ls 
+  444  cat result.txt
+  445  rm result.txt 
+  446  ls
+  447  ls -l cmds.log
+  448  cat test.txt
+  449  touch test.txt
+  450  vi test.txt
+  451  ls -l test.txt 
+  452  ls
+  453  cd cs131/
+  454  ls
+  455  ls - l Global\ YouTube\ Statistics.csv 
+  456  ls -l Global\ YouTube\ Statistics.csv 
+  457  cd /
+  458  cd cs131/
+  459  cd /
+  460  cd c
+  461  cd cs131
+  462  ls
+  463  pwd
+  464  cd
+  465  cd cs131/
+  466  egrep man
+  467  man egrep
+  468  grep -i "Music" Global\ YouTube\ Statistics.csv 
+  469  grep -e "Music" Global\ YouTube\ Statistics.csv 
+  470  grep -c "Music" Global\ YouTube\ Statistics.csv 
+  471  grep -o "Taylor" Global\ YouTube\ Statistics.csv 
+  472  grep -i "Taylor" Global\ YouTube\ Statistics.csv 
+  473  grep -c "Taylor" Global\ YouTube\ Statistics.csv 
+  474  grep -w "Taylor" Global\ YouTube\ Statistics.csv 
+  475  egrep "Taylor" Global\ YouTube\ Statistics.csv 
+  476  egrep "Selena" Global\ YouTube\ Statistics.csv 
+  477  fgrep "Justin" Global\ YouTube\ Statistics.csv 
+  478  egrep -c "Music" Global\ YouTube\ Statistics.csv 
+  479  cut --version
+  480  grep -i Music Global\ YouTube\ Statistics.csv 
+  481  EVO,99,United States,US,Music,557,174,148,35027000,8800,140100,105100,1700000,nan,2010,Apr,1,88.2,328239523,14.7,270663028,37.09024,-95.712891
+  482  grep -w Taylor Global\ YouTube\ Statistics.csv 
+  483  grep -i Taylor Global\ YouTube\ Statistics.csv 
+  484  grep -w Taylor Global\ YouTube\ Statistics.csv 
+  485  grep -w taylor Global\ YouTube\ Statistics.csv 
+  486  grep -i taylor Global\ YouTube\ Statistics.csv 
+  487  cat test.
+  488  ls
+  489  cd
+  490  mv test.txt cs131
+  491  ls
+  492  cd cs131/
+  493  ls
+  494  cat test.txt 
+  495  cut -b 3-11 test.txt 
+  496  cat test.txt | [a-z] [A-Z]
+  497  cat test.txt 
+  498  cat test.txt | tr [a-z] [A-Z]
+  499  cat test.txt | tr [A-Z] [a-z]
+  500  vi test1.txt
+  501  join test.txt test1.txt 
+  502  cat test1.txt
+  503  join test1.txt test.txt
+  504  rm test
+  505  rm test1.txt
+  506  vi love.txt
+  507  cat love.txt 
+  508  sed 's/Erik @ KSTH/May Sabai/' love.txt 
+  509  sed 's/May Sabai /Erik @ KSTH/g' love.txt 
+  510  touch loveLetter.txt
+  511  love.txt > loveLetter.txt
+  512  echo love.txt > loveLetter.txt
+  513  ls
+  514  cat loveLetter.txt
+  515  echo love.txt >> loveLetter.txt
+  516  cat loveLetter.txt
+  517  rm loveLetter.txt
+  518  love.txt > touch loveLetter.txt
+  519  ls
+  520  rm touch
+  521  ls
+  522  touch loveLetter.txt
+  523  cp love.txt loveLetter.txt
+  524  cat loveLetter.txt
+  525  grep "Taylor" Global\ YouTube\ Statistics.csv > test.txt 
+  526  cat test.txt 
+  527  rm love.txt
+  528  clear
+  529  ls -latr
+  530  ls -lat
+  531  ls *.txt
+  532  man tar
+  533  more test.txt 
+  534  grep -i "Selena" Global\ YouTube\ Statistics.csv >> test.txt 
+  535  car test.txt 
+  536  cat test.txt 
+  537  grep -i "Justin" Global\ YouTube\ Statistics.csv > test.txt 
+  538  cat test.txt 
+  539  more Global\ YouTube\ Statistics.csv 
+  540  less Global\ YouTube\ Statistics.csv 
+  541  more Global\ YouTube\ Statistics.csv 
+  542  head Global\ YouTube\ Statistics.csv 
+  543  count -c head Global\ YouTube\ Statistics.csv 
+  544  tail Global\ YouTube\ Statistics.csv 
+  545  head -20 Global\ YouTube\ Statistics.csv 
+  546  head -n -15 Global\ YouTube\ Statistics.csv 
+  547  head -n 15 Global\ YouTube\ Statistics.csv 
+  548  grep "Taylor" Global\ YouTube\ Statistics.csv >> test.txt 
+  549  vi test.txt 
+  550  cd cs131/
+  551  vi Global\ YouTube\ Statistics.csv 
+  552  grep -c Taylor Global\ YouTube\ Statistics.csv 
+  553  sort Global\ YouTube\ Statistics.csv 
+  554  wc Global\ YouTube\ Statistics.csv 
+  555  wc -l Global\ YouTube\ Statistics.csv 
+  556  wc -w Global\ YouTube\ Statistics.csv 
+  557  wc -b Global\ YouTube\ Statistics.csv 
+  558  wc --help
+  559  wc -m Global\ YouTube\ Statistics.csv 
+  560  wc -c Global\ YouTube\ Statistics.csv 
+  561  grep --help
+  562  grep -v Taylor Global\ YouTube\ Statistics.csv : Invert Search
+  563  grep -v Taylor Global\ YouTube\ Statistics.csv 
+  564  echo "me"
+  565  echo 'me'
+  566  echo `me`
+  567  echo `pwd`
+  568  echo "pwd"
+  569  echo $DISPLAY
+  570  echo $PATH
+  571  echo $TERM
+  572  a=1234
+  573  b=$a+1
+  574  echo b=$a+1
+  575  echo b
+  576  b=$(($a+1))
+  577  echo `b`
+  578  echo $b
+  579  c=$a+1
+  580  echo $c
+  581  echo "pwd"
+  582  a='abc'
+  583  b=${a}def
+  584  echo $b
+  585  echo $
+  586  echo $?
+  587  clear
+  588  i .bashrc
+  589  echo .bashrc
+  590  vi .bashrc
+  591  ls
+  592  cd
+  593  vi .bashrc
+  594  lll
+  595  ls -latr
+  596  vi .bashrc
+  597  clear
+  598  cd cs131/
+  599  file_count=`wc -l Taylor Global\ YouTube\ Statistics.csv`
+  600  file_count=`wc -l Global\ YouTube\ Statistics.csv`
+  601  echo "Number of output = $file_count"
+  602  /etc/passwd
+  603  echo /etc/passwd
+  604  echo `/etc/passwd`
+  605  cat /etc/passwd
+  606  cat /etc/shadow
+  607  cat /etc/group
+  608  cat /etc/sudoers
+  609  cd A
+  610  cd Assignment1/
+  611  chmod u+w myDir/
+  612  ls -l
+  613  chmod u-w myDir/
+  614  ls -latr
+  615  ls -ltr
+  616  cd
+  617  find . -type f -name "myDir*"
+  618  find ./ -type d -name "myDir*"
+  619  cd c
+  620  cd cs131/
+  621  mkdir myDir4
+  622  cd
+  623  find ./ -type d -name "myDir*"
+  624  cd cs131/
+  625  ls *.txt
+  626  find /Assignment1 -type d -name "myDir*"
+  627  find Assignment1/ -type d -name "myDir*"
+  628  find home/ -type d -name "myDir*"
+  629  find /home -type d -name "myDir*"
+  630  find /home/ -type d -name "myDir*"
+  631  find Assignment1/ -name "test.txt"
+  632  find ./ -name "*.txt"
+  633  find /tmp -mtime -1
+  634  cd cs131/
+  635  vi Global\ YouTube\ Statistics.csv 
+  636  cp test1.txt test.txt
+  637  touch test1.txt
+  638  cp test1.txt test.txt
+  639  cat test1.txt
+  640  cat test.txt
+  641  vi test.txt
+  642  ls -l
+  643  ls -a
+  644  ls -latr
+  645  cd Assignment1/
+  646  cd myDir3
+  647  cd ../../
+  648  who
+  649  who > res.txt
+  650  cat res.txt
+  651  who > res.txt | tee wc
+  652  who | tee res.txt | wc -l
+  653  who | tee res.txt
+  654  who | tee res.txt | tee wc -l
+  655  who | tee wc -l
+  656  who | tee wc
+  657  clear
+  658  who | wc
+  659  who | tee result.txt | wc
+  660  who | tee wc result.txt
+  661  clear 
+  662  rm res.txt
+  663  rm result.txt
+  664  ls
+  665  who | wc | tee res.txt
+  666  ls
+  667  rm res.txt 
+  668  who | tee /dev/tty | wc
+  669  find /etc -type f > one.txt 2> two.txt
+  670  cat one.txt
+  671  cat two.txt
+  672  clear
+  673  ls
+  674  cd cs131
+  675  mkdir Assignment2
+  676  ls
+  677  cd Assignment2
+  678  vi Assignment2.txt
+  679  cd ..
+  680  vi Global\ YouTube\ Statistics.csv 
+  681  rm Global\ YouTube\ Statistics.csv 
+  682  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  683  ls
+  684  vi Global\ YouTube\ Statistics.csv 
+  685  uniq -u Global\ YouTube\ Statistics.csv 
+  686  sort -n Global\ YouTube\ Statistics.csv 
+  687  cut -d ',' -f 20,21 Global\ YouTube\ Statistics.csv 
+  688  vi Global\ YouTube\ Statistics.csv 
+  689  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv > results2.txt
+  690  vi results.txt
+  691  ls
+  692  cat results2.txt 
+  693  sort -n results2.txt 
+  694  sort -k2 results2.txt 
+  695  sort -k3 results2.txt 
+  696  sort -n results2.txt 
+  697  sort -k 2 results2.txt 
+  698  sort -k2n results2.txt 
+  699  sort -k2M r
+  700  sort -k2M results2.txt 
+  701  clear
+  702  rm results2.txt 
+  703  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv > results.txt
+  704  cat results.txt 
+  705  sort -k 2 results.txt 
+  706  sort -k 3 results.txt 
+  707  sort -k 4 results.txt 
+  708  column -ts $','
+  709  uniq -u results.txt 
+  710  sort -t',' -k2 results.txt 
+  711  sort -t',' -k2 -k3 results.txt 
+  712  clear
+  713  vi results.txt 
+  714  sort -t',' -k2 -k3 results.txt > numbers.txt
+  715  cat numbers.txt 
+  716  sort -t',' -k2 -k3M results.txt > numbers.txt 
+  717  vi numbers.txt 
+  718  rm numbers.txt 
+  719  sort -t',' -k2 -k3M results.txt > numbers.txt
+  720  vi numbers.txt 
+  721  cut -d',' -f2 results.txt | uniq -c
+  722  cut -d ',' -f2 numbers.txt | uniq -c
+  723  grep '2006' > 2006.txt
+  724  grep -i '2006' numbers.txt > 2006.txt
+  725  cat 2006.txt
+  726  sort -d',' -f3 2006.txt | uniq -c
+  727  cut -d ',' -f3 2006.txt | uniq -c
+  728  grep -i '2011' numbers.txt | sort -d ',' -f3 numbers.txt | uniq -c
+  729  grep -i '2011' numbers.txt | wc -l
+  730  grep -i '2011' numbers.txt > 2011.txt
+  731  cut -d ',' -f3 2011.txt | uniq -c
+  732  grep -i '2014' numbers.txt > 2014.txt
+  733  cut -d ',' -f3 2014.txt | uniq -c
+  734  cd Assignment2
+  735  vi Assignment2.txt 
+  736  cd ..
+  737  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv 
+  738  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv | uniq -c
+  739  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  740  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  741  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  742  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  743  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  744  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  745  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  746  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  747  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  748  clear
+  749  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  750  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  751  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  752  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv 
+  753  clear
+  754  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv > shorten.txt
+  755  cat shorten.txt 
+  756  sort -t',' k2 -k3M shorten.txt | uniq -c
+  757  sort -t',' -k2 -k3M shorten.txt | uniq -c
+  758  sort -t',' -k2 shorten.txt | uniq -c
+  759  rm shorten.txt 
+  760  clear
+  761  sort -t ',
+  762  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv 
+  763  vi Global\ YouTube\ Statistics.csv 
+  764  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv > sorted.txt
+  765  cut -d ',' -f 20 sorted.txt | uniq -c
+  766  cut -d ',' -f 20,21 sorted.txt | uniq -c
+  767  cut -d ',' -f 20,21 sorted.txt | uniq -c | sort -nr
+  768  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+  769  cd Assignment2
+  770  vi Assignment2.txt 
+  771  ps -u maysp24
+  772  ps -u maysp24@sjsu
+  773  vi Assignment2.txt 
+  774  vi file.txt
+  775  cd cs131/
+  776  cd Assignment2
+  777  vi Assignment2.txt 
+  778  ps -u maysp24
+  779  vi Assignment2.txt 
+  780  cd
+  781  ps -u maysp24
+  782  pgrep systemd
+  783  ps aux
+  784  cd cs131/Assignment2
+  785  vi Assignment2.txt 
+  786  vi Assignment.txt
+  787  rm Assignment2.txt 
+  788  ls
+  789  cd
+  790  ls
+  791  rm one.txt 
+  792  rm two.txt 
+  793  cd cs131/
+  794  ls
+  795  rm loveLetter.txt 
+  796  rm results.txt 
+  797  rm sorted.txt 
+  798  rm test
+  799  rm test.txt
+  800  rm test1.txt 
+  801  rm numbers.txt 
+  802  rm 2006.txt
+  803  rm 2011.txt 
+  804  rm 2014.txt 
+  805  ls
+  806  cd Assignment2
+  807  ls
+  808  find /etc -type f > one.txt 2> two.txt
+  809  cat one.txt 
+  810  cat two.txt
+  811  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+  812  cd ..
+  813  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+  814  ps -u maysp24
+  815  pgrep systemd
+  816  cd Assignment
+  817  cd Assignment2
+  818  history > cmds.log
+  819  vi cmds.log 
+  820  vi Assignment2.txt
+  821  ls
+  822  cd ..
+  823  git branch
+  824  git status
+  825  git add Assignment2/
+  826  git status
+  827  git commit -m "Assignment2"
+  828  git push
+  829  cd cs131/Assignment2
+  830  ls
+  831  vi Assignment2.txt 
+  832  cd
+  833  ls
+  834  cd cs131/
+  835  ls
+  836  vi G
+  837  ls
+  838  vi Global\ YouTube\ Statistics.csv 
+  839  sort -t',' -k16 -k8 Global\ YouTube\ Statistics.csv | cut -d ',' -f 8,16 | uniq -c | sort -nr
+  840  vi Global\ YouTube\ Statistics.csv 
+  841  sort -t',' -k16 -k8 Global\ YouTube\ Statistics.csv | cut -d ',' -f 16,8,2 | uniq -c | sort -nr
+  842  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 16 -n -r | head -n 1
+  843  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 16 -n -r
+  844  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 16,8,2 | uniq -c | sort -nr
+  845  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 2,8,16 | uniq -c | sort -nr
+  846  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | uniq -c | sort -nr
+  847  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,16 | uniq -c | sort -nr
+  848  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r
+  849  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,16 
+  850  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16
+  851  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | tail -10
+  852  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | tail -10
+  853  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | tail -1
+  854  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 2,8,16 | tail -10
+  855  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n | cut -d ',' -f 2,8,16 | tail -10
+  856  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n | cut -d ',' -f 2,8,16 | head -10
+  857  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n | cut -d ',' -f 2,8,16 | tail -10
+  858  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 2,8,16 | tail -10
+  859  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -10
+  860  vi Global\ YouTube\ Statistics.csv 
+  861  grep "Sports" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -10
+  862  grep "Education" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -10
+  863  vi Global\ YouTube\ Statistics.csv
+----------------------------------------------
+Creating a directory 
+  864  mkdir Worksheet3
+----------------------------------------------
+Commands for question 1
+  865  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1 > ws3.txt
+  867  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1 >> ws3.txt
+  870  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1 >> ws3.txt 
+  871  vi ws3.txt 
+-----------------------------------------------
+Commands for question 2
+  872  grep "Sports" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1 >> ws3.txt 
+  873  grep "Education" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1 >> ws3.txt 
+  874  grep "Entertainment" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1 >> ws3.txt
+------------------------------------------------
+Editing ws3.txt
+  875  vi ws3.txt 
+------------------------------------------------
+  876  history > cmds.log
