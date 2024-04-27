@@ -1,0 +1,980 @@
+   94  who | tee wc result.txt
+   95  clear 
+   96  rm res.txt
+   97  rm result.txt
+   98  ls
+   99  who | wc | tee res.txt
+  100  ls
+  101  rm res.txt 
+  102  who | tee /dev/tty | wc
+  103  find /etc -type f > one.txt 2> two.txt
+  104  cat one.txt
+  105  cat two.txt
+  106  clear
+  107  ls
+  108  cd cs131
+  109  mkdir Assignment2
+  110  ls
+  111  cd Assignment2
+  112  vi Assignment2.txt
+  113  cd ..
+  114  vi Global\ YouTube\ Statistics.csv 
+  115  rm Global\ YouTube\ Statistics.csv 
+  116  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  117  ls
+  118  vi Global\ YouTube\ Statistics.csv 
+  119  uniq -u Global\ YouTube\ Statistics.csv 
+  120  sort -n Global\ YouTube\ Statistics.csv 
+  121  cut -d ',' -f 20,21 Global\ YouTube\ Statistics.csv 
+  122  vi Global\ YouTube\ Statistics.csv 
+  123  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv > results2.txt
+  124  vi results.txt
+  125  ls
+  126  cat results2.txt 
+  127  sort -n results2.txt 
+  128  sort -k2 results2.txt 
+  129  sort -k3 results2.txt 
+  130  sort -n results2.txt 
+  131  sort -k 2 results2.txt 
+  132  sort -k2n results2.txt 
+  133  sort -k2M r
+  134  sort -k2M results2.txt 
+  135  clear
+  136  rm results2.txt 
+  137  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv > results.txt
+  138  cat results.txt 
+  139  sort -k 2 results.txt 
+  140  sort -k 3 results.txt 
+  141  sort -k 4 results.txt 
+  142  column -ts $','
+  143  uniq -u results.txt 
+  144  sort -t',' -k2 results.txt 
+  145  sort -t',' -k2 -k3 results.txt 
+  146  clear
+  147  vi results.txt 
+  148  sort -t',' -k2 -k3 results.txt > numbers.txt
+  149  cat numbers.txt 
+  150  sort -t',' -k2 -k3M results.txt > numbers.txt 
+  151  vi numbers.txt 
+  152  rm numbers.txt 
+  153  sort -t',' -k2 -k3M results.txt > numbers.txt
+  154  vi numbers.txt 
+  155  cut -d',' -f2 results.txt | uniq -c
+  156  cut -d ',' -f2 numbers.txt | uniq -c
+  157  grep '2006' > 2006.txt
+  158  grep -i '2006' numbers.txt > 2006.txt
+  159  cat 2006.txt
+  160  sort -d',' -f3 2006.txt | uniq -c
+  161  cut -d ',' -f3 2006.txt | uniq -c
+  162  grep -i '2011' numbers.txt | sort -d ',' -f3 numbers.txt | uniq -c
+  163  grep -i '2011' numbers.txt | wc -l
+  164  grep -i '2011' numbers.txt > 2011.txt
+  165  cut -d ',' -f3 2011.txt | uniq -c
+  166  grep -i '2014' numbers.txt > 2014.txt
+  167  cut -d ',' -f3 2014.txt | uniq -c
+  168  cd Assignment2
+  169  vi Assignment2.txt 
+  170  cd ..
+  171  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv 
+  172  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv | uniq -c
+  173  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  174  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  175  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  176  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  177  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  178  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  179  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  180  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  181  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  182  clear
+  183  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv
+  184  | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  185  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv | sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | uniq -c
+  186  cut -d ',' -f 20 Global\ YouTube\ Statistics.csv 
+  187  clear
+  188  cut -d ',' -f 2,20,21 Global\ YouTube\ Statistics.csv > shorten.txt
+  189  cat shorten.txt 
+  190  sort -t',' k2 -k3M shorten.txt | uniq -c
+  191  sort -t',' -k2 -k3M shorten.txt | uniq -c
+  192  sort -t',' -k2 shorten.txt | uniq -c
+  193  rm shorten.txt 
+  194  clear
+  195  sort -t ',
+  196  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv 
+  197  vi Global\ YouTube\ Statistics.csv 
+  198  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv > sorted.txt
+  199  cut -d ',' -f 20 sorted.txt | uniq -c
+  200  cut -d ',' -f 20,21 sorted.txt | uniq -c
+  201  cut -d ',' -f 20,21 sorted.txt | uniq -c | sort -nr
+  202  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+  203  cd Assignment2
+  204  vi Assignment2.txt 
+  205  ps -u maysp24
+  206  ps -u maysp24@sjsu
+  207  vi Assignment2.txt 
+  208  vi file.txt
+  209  cd cs131/
+  210  cd Assignment2
+  211  vi Assignment2.txt 
+  212  ps -u maysp24
+  213  vi Assignment2.txt 
+  214  cd
+  215  ps -u maysp24
+  216  pgrep systemd
+  217  ps aux
+  218  cd cs131/Assignment2
+  219  vi Assignment2.txt 
+  220  vi Assignment.txt
+  221  rm Assignment2.txt 
+  222  ls
+  223  cd
+  224  ls
+  225  rm one.txt 
+  226  rm two.txt 
+  227  cd cs131/
+  228  ls
+  229  rm loveLetter.txt 
+  230  rm results.txt 
+  231  rm sorted.txt 
+  232  rm test
+  233  rm test.txt
+  234  rm test1.txt 
+  235  rm numbers.txt 
+  236  rm 2006.txt
+  237  rm 2011.txt 
+  238  rm 2014.txt 
+  239  ls
+  240  cd Assignment2
+  241  ls
+  242  find /etc -type f > one.txt 2> two.txt
+  243  cat one.txt 
+  244  cat two.txt
+  245  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+  246  cd ..
+  247  sort -t',' -k20 -k21M Global\ YouTube\ Statistics.csv | cut -d ',' -f 20,21 | uniq -c | sort -nr
+  248  ps -u maysp24
+  249  pgrep systemd
+  250  cd Assignment
+  251  cd Assignment2
+  252  history > cmds.log
+  253  vi cmds.log 
+  254  vi Assignment2.txt
+  255  ls
+  256  cd ..
+  257  git branch
+  258  git status
+  259  git add Assignment2/
+  260  git status
+  261  git commit -m "Assignment2"
+  262  git push
+  263  cd cs131/Assignment2
+  264  ls
+  265  vi Assignment2.txt 
+  266  cd
+  267  ls
+  268  cd cs131/
+  269  ls
+  270  vi G
+  271  ls
+  272  vi Global\ YouTube\ Statistics.csv 
+  273  sort -t',' -k16 -k8 Global\ YouTube\ Statistics.csv | cut -d ',' -f 8,16 | uniq -c | sort -nr
+  274  vi Global\ YouTube\ Statistics.csv 
+  275  sort -t',' -k16 -k8 Global\ YouTube\ Statistics.csv | cut -d ',' -f 16,8,2 | uniq -c | sort -nr
+  276  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 16 -n -r | head -n 1
+  277  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k 16 -n -r
+  278  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 16,8,2 | uniq -c | sort -nr
+  279  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 2,8,16 | uniq -c | sort -nr
+  280  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | uniq -c | sort -nr
+  281  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,16 | uniq -c | sort -nr
+  282  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r
+  283  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,16 
+  284  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16
+  285  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | tail -10
+  286  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | tail -10
+  287  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n -r | cut -d ',' -f 2,8,16 | tail -1
+  288  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 2,8,16 | tail -10
+  289  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n | cut -d ',' -f 2,8,16 | tail -10
+  290  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n | cut -d ',' -f 2,8,16 | head -10
+  291  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16,16n | cut -d ',' -f 2,8,16 | tail -10
+  292  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16 | cut -d ',' -f 2,8,16 | tail -10
+  293  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -10
+  294  vi Global\ YouTube\ Statistics.csv 
+  295  grep "Sports" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -10
+  296  grep "Education" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -10
+  297  vi Global\ YouTube\ Statistics.csv 
+  298  mkdir Worksheet3
+  299  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1 > ws3.txt
+  300  vi ws3.txt 
+  301  grep "United Kingdom" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1 >> ws3.txt
+  302  vi ws3.txt 
+  303  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1
+  304  grep "India" Global\ YouTube\ Statistics.csv | sort -t ',' -k16n | cut -d ',' -f 2,8,16 | tail -1 >> ws3.txt 
+  305  vi ws3.txt 
+  306  grep "Sports" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1 >> ws3.txt 
+  307  grep "Education" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1 >> ws3.txt 
+  308  grep "Entertainment" Global\ YouTube\ Statistics.csv | sort -t ',' -k3n | cut -d ',' -f 3,5,6 | tail -1 >> ws3.txt
+  309  vi ws3.txt 
+  310  history > cmds.log
+  311  vi cmds.log 
+  312  ls
+  313  mv cs131/ws3.txt cs131/Worksheet3/
+  314  mv ws3.txt cs131/Worksheet3/
+  315  mv ws3.txt Worksheet3/
+  316  ls
+  317  mv cmds.log Worksheet3/
+  318  cd Worksheet3
+  319  ls
+  320  git status
+  321  cd ..
+  322  git status
+  323  git add Worksheet3/
+  324  git commit -m "Worksheet3 Submission"
+  325  git push
+  326  vi ~/.bashrc
+  327  l
+  328  w
+  329  mkdir Worksheet4
+  330  mkdir Subscribers
+  331  ls
+  332  awk -F ',' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv >> Worksheet4/Subscribers/United_States.txt
+  333  rmdir Subscribers
+  334  ls
+  335  cd Worksheet4
+  336  mkdir Subscribers
+  337  ls
+  338  awk -F ',' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv >> Subscribers/United_States.txt
+  339  cd ..
+  340  awk -F ',' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv >> Worksheet4/Subscribers/United_States.txt
+  341  awk -F ',' '$8=="India" {print $3,$8}' Global\ YouTube\ Statistics.csv >> Worksheet4/Subscribers/India.txt
+  342  mean_us=$(awk ‘{ sum += $1; count++ } END {print sum / count }’ Worksheet4/Subscribers/United_States.txt
+  343  :q
+  344  mean_us=$(awk '{ sum += $1; count++ } END { print sum / count }' Worksheet4/Subscribers/United_States.txt)
+  345  echo $mean_us 
+  346  mean_us=$(awk '{ sum += $1; count++ } END { print sum / count }' Worksheet4/Subscribers/United_States.txt) >> Worksheet4/ws4_means.txt
+  347  mean_india=$(awk '{ sum += $1; count++ } END { print sum / count }' Worksheet4/Subscribers/India.txt) >> Worksheet4/ws4_means.txt 
+  348  cd Worksheet4
+  349  vi ws4_means.txt 
+  350  echo $mean_us
+  351  echo $mean_us >> ws4_means.txt 
+  352  echo $mean_india >> ws4_means.txt 
+  353  vi ws4_means.txt 
+  354  cd cs131/
+  355  vi ~/.bashrc
+  356  source ~/.bashrc
+  357  l
+  358  w
+  359  mkdir Subscribers
+  360  awk `/United States/` Global\ YouTube\ Statistics.csv 
+  361  awk '/United States/' Global\ YouTube\ Statistics.csv 
+  362  l
+  363  awk '/United States/ {print $2,$3}' Global\ YouTube\ Statistics.csv 
+  364  vi Global\ YouTube\ Statistics.csv 
+  365  awk '/United States/ {print $3,$8}' Global\ YouTube\ Statistics.csv
+  366  awk '/India/ {print $3,$8}' Global\ YouTube\ Statistics.csv
+  367  awk -F ',' '/India/ {print $3,$8}' Global\ YouTube\ Statistics.csv
+  368  awk -F ',' '$8=="India" {print $3,$8}' Global\ YouTube\ Statistics.csv
+  369  awk -F ',' '$8=="United States" {print $3,$8}' Global\ YouTube\ Statistics.csv
+  370  awk -F ',' '$8=="United States" {print $3}' Global\ YouTube\ Statistics.csv >> Subscribers/United_States.txt
+  371  awk -F ',' '$8=="India" {print $3,$8}' Global\ YouTube\ Statistics.csv >> Subscribers/India.txt
+  372  cd Subscribers/
+  373  vi United_States.txt 
+  374  mean_us=$(awk '{ sum += $1; count++ } END { print sum / count }' Worksheet4/Subscribers/United_States.txt | bc)
+  375  mean_us=$(awk '{ sum += $1; count++ } END { print sum / count }' United_States.txt | bc)
+  376  cd ..
+  377  mean_us=$(awk '{ sum += $1; count++ } END { print sum / count }' Subscribers/United_States.txt | bc)
+  378  mean_us=$(awk '{ sum += $1 } END { print sum / NR }' Subscribers/United_States.txt)
+  379  mean_us=$(awk '{ sum += $1 } END { print sum / NR }' Subscribers/United_States.txt | bc)
+  380  echo $mean_us
+  381  mean_us=$(awk '{ sum += $1 } END { print sum / NR }' Subscribers/United_States.txt)
+  382  echo $mean_us
+  383  mean_india=$(awk '{ sum += $1; count++ } END { print sum / count }' Subscribers/India.txt)
+  384  echo $mean_india
+  385  vi Subscribers/United_States.txt 
+  386  clear
+  387  rm Subscribers/
+  388  rmdir Subscribers/
+  389  cd Subscribers/
+  390  rm United_States.txt 
+  391  rm India.txt 
+  392  cd .
+  393  cd ..
+  394  rmdir Subscribers/
+  395  ls
+  396  script ws4.txt
+  397  ls
+  398  mv ws4.txt Worksheet4
+  399  ls
+  400  cd Worksheet4
+  401  ls
+  402  cd Subscribers/
+  403  ls
+  404  cd ..
+  405  git init
+  406  git status
+  407  git add Worksheet4/
+  408  git commit -m "Worksheet4 submission"
+  409  git push
+  410  git status
+  411  cd Worksheet4/Subscribers/
+  412  rm India.txt 
+  413  cd ..
+  414  awk -F ',' '$8=="India" {print $3}' Global\ YouTube\ Statistics.csv >> Worksheet4/Subscribers/India.txt
+  415  mean_india=$(awk '{ sum += $1; count++ } END { print sum / count }' Worksheet4/Subscribers/India.txt)
+  416  echo mean_i
+  417  echo mean_india
+  418  echo $mean_india 
+  419  vi Worksheet4/ws4_means.txt 
+  420  vi script/cmds.log
+  421  vi Worksheet4/ws4.txt
+  422  cd Worksheet4/Subscribers/India.txt
+  423  vi Worksheet4/Subscribers/India.txt 
+  424  vi Worksheet4/Subscribers/United_States.txt 
+  425  git status
+  426  git add Worksheet4/Subscribers/India.txt 
+  427  git add Worksheet4/ws4.txt 
+  428  git commit -m "Fix Errors1"
+  429  git push
+  430  git status
+  431  ls
+  432  cd cs131/
+  433  mkdir MiniProjectGroup6
+  434  ls
+  435  git status
+  436  cd MiniProjectGroup6/
+  437  vi TeamMembers
+  438  cd ..
+  439  git status
+  440  git add MiniProjectGroup6/
+  441  git commit -m "initial commit"
+  442  echo "# CS_131" >> README.md
+  443  git init
+  444  git commit -m "first commit"
+  445  git status
+  446  git add MiniProjectGroup6/
+  447  git commit -m "initial commit"
+  448  git branch -M master
+  449  git remote add origin https://github.com/QMay17/CS_131.git
+  450  cd MiniProjectGroup6/
+  451  vi TeamMembers 
+  452  cd ..
+  453  cd MiniProjectGroup6/
+  454  rm TeamMembers 
+  455  cd ..
+  456  rmdir MiniProjectGroup6/
+  457  mkdir MiniProjectGroup6
+  458  cd MiniProjectGroup6/
+  459  vi TeamMembers
+  460  cd ..
+  461  git remote -v
+  462  git remote remove orignin
+  463  git remote remove https://github.com/QMay17/cs131.git
+  464  git remote remove origin
+  465  git remote add new origin https://github.com/QMay17/CS_131
+  466  git status
+  467  git add MiniProjectGroup6/
+  468  git commit -m "initial commit"
+  469  git push
+  470  ls
+  471  cd MiniProjectGroup6/
+  472  ls
+  473  vi TeamMembers 
+  474  cd ..
+  475  git status
+  476  git init
+  477  git add https://github.com/QMay17/CS_131
+  478  git remote add https://github.com/QMay17/CS_131
+  479  git add MiniProjectGroup6/
+  480  git commit -m "initial commit"
+  481  git push
+  482  git push MiniProjectGroup6/
+  483  cd MiniProjectGroup6/
+  484  vi T
+  485  rm T
+  486  vi TeamMembers 
+  487  cd cs131/Assignment3
+  488  vi Assignment3.txt
+  489  cd cs131/
+  490  ls
+  491  cd Assignment1
+  492  ls
+  493  cd ..
+  494  mkdir Assignment3
+  495  vi Assignment3.txt
+  496  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  497  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  498  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  499  ls
+  500  rm README.md 
+  501  ls
+  502  vi last.fake 
+  503  grep "sp24" last.fake 
+  504  grep "sp24" last.fake > wc -l
+  505  grep "sp24" last.fake | wc -l
+  506  wc -l last.fake 
+  507  cd Assignment
+  508  cd Assignment3
+  509  grep "sp24" last.fake >> lastsp24.fake
+  510  cd ..
+  511  grep "sp24" last.fake >> Assignment3/lastsp24.fake
+  512  cd Assignment
+  513  cd Assignment3
+  514  ls
+  515  vi lastsp24.fake 
+  516  ls
+  517  cd ..
+  518  ls
+  519  mv Assignment3.txt Assignment3/
+  520  ls
+  521  cd Assignment3
+  522  ls
+  523  vi A
+  524  ls
+  525  vi Assignment3.txt 
+  526  cd ..
+  527  grep "sp24" last.fake >> Assignment3/lastsp24.fake | wc -l
+  528  cd Assignment3
+  529  rm Assignment3.txt 
+  530  rm lastsp24.fake 
+  531  cd ..
+  532  grep "sp24" last.fake >> Assignment3/lastsp24.fake
+  533  wc -l Assignment3/lastsp24.fake 
+  534  cd cs131/
+  535  cat fileattribs.sh
+  536  touch fileattribs.sh
+  537  bash fileattribs.sh 
+  538  bash fileattrworks.sh
+  539  touch fileattrworks.sh
+  540  bash fileattrworks.sh
+  541  vi fileattrworks.sh
+  542  bash fileattrworks.sh
+  543  ls -ltr
+  544  vi fileattrworks.sh
+  545  bash fileattrworks.sh
+  546  vi fileattrworks.sh
+  547  cd cs131/
+  548  cd Assignment4
+  549  cd Assignment3
+  550  vi lastsp24.fake 
+  551  grep "Sun" lastsp24.fake 
+  552  grep "Sun" lastsp24.fake | awk -F '{print $1}
+  553  awk -F '$4=="Sun" {print $1}' lastsp24.fake 
+  554  awk '$4=="Sun" {print $1}' lastsp24.fake 
+  555  awk '$4=="Sun" {print $1}' lastsp24.fake | sort -nr | uniq
+  556  awk '$4=="Sun" {print $1}' lastsp24.fake | sort | uniq
+  557  awk 'BEGIN {print "The list of people who worked on Sunday are:"} $4=="Sun" {print $1} END' lastsp24.fake
+  558  awk 'BEGIN {print "The list of people who worked on Sunday are:"} $4=="Sun" {print $1} END {print "Kudos to these people for putting in the work"}' lastsp24.fake
+  559  awk 'BEGIN {print "The list of people who worked on Sunday are:"} $4=="Sun" {print $1} END {print "Kudos to these people for putting in the work"}' lastsp24.fake 
+  560  awk '$4=="Sun" {print $1}' lastsp24.fake | sort | uniq
+  561  awk 'BEGIN {print "The list of people who worked on Sunday are:"} END {print "Kudos to these people for putting in the work"}'
+  562  grep "Sun" lastsp24.fake | awk '{print $1}' | sort | uniq
+  563  grep "Sun" lastsp24.fake | awk '{print $1}' | sort | uniq >> SunUsers.fake
+  564  awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}' SunUsers.fake 
+  565  cd cs131/Assignment3
+  566  ls
+  567  cat lastsp24.fake 
+  568  awk '$7 >= 23:00 || $7 <= 04:00 {print $1}' lastsp24.fake | sort | uniq
+  569  awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq
+  570  awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq | wc -l
+  571  wc -l lastsp24.fake 
+  572  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake | sort | uniq | wc -l
+  573  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake | sort | uniq 
+  574  awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq 
+  575  vi lastsp24.fake 
+  576  wc -l SunUsers.fake 
+  577  awk '$7 >= 23 && $7 <= 04 {print $1}' lastsp24.fake | sort | uniq | wc -l
+  578  awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq >> NightOwls.fake
+  579  awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' NightOwls.fake
+  580  grep "Sun" lastsp24.fake | awk '{print $1}' | sort | uniq
+  581  vi Assignment3.txt 
+  582  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake
+  583  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake | sort -k1 | uniq
+  584  awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq 
+  585  awk '($7 != - && ($7 >= 23 || $7 <= 04)) {print $1}' lastsp24.fake | sort | uniq 
+  586  awk '($7 != "-" && ($7 >= 23 || $7 <= 04)) {print $1}' lastsp24.fake | sort | uniq 
+  587  awk '$7 != "-" {print $1,$7}' lastsp24.fake 
+  588  awk '$7 == "-" {print $1,$7}' lastsp24.fake 
+  589  awk '$7 != "-" && ($7 >= 23 || $7 <= 04) {print $1}' lastsp24.fake 
+  590  awk '$7 != "-" && ($7 >= 23 || $7 <= 04) {print $1,$7}' lastsp24.fake 
+  591  awk '($7 >= 23 || $7 <= 04) && $7 != "-" {print $1,$7}' lastsp24.fake
+  592  awk '($7 >= 23 || $7 < 4) && $7 != "-" {print $1, $7}' lastsp24.fake
+  593  awk '($7 >= 23 || $7 <= 04) && $7 != "-" {print $1, $7}' lastsp24.fake
+  594  awk '($7 >= 23 || $7 <= 04) && ($7 != "-") {print $1, $7}' lastsp24.fake
+  595  awk '$7 >= 23 || $7 <= 04 {print $1, $7}' lastsp24.fake
+  596  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake
+  597  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake | sort -k1 
+  598  awk '$7 >= 23 || $7 <= 04 {print $1,$7}' lastsp24.fake | sort -k1 awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 23 && hour <= 24) || (hour >= 0 && hour <= 4)) { print $1, $7 } }' lastsp24.fake
+  599  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 23 && hour <= 24) || (hour >= 0 && hour <= 4)) { print $1, $7 } }' lastsp24.fake
+  600  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 23 && hour <= 24) || (hour >= 0 && hour <= 4)) { print $1, $7 } }' lastsp24.fake| wc -l
+  601  awk 'split($7, time, ":"); hour = substr(time[1], 1, 2); if (hour >= 23 && hour <= 24) {print $1, $7}' lastsp24.fake
+  602  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 23 && hour <= 24)) { print $1, $7 } }' lastsp24.fake| wc -l
+  603  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if (hour >= 23 && hour <= 24) { print $1, $7 } }' lastsp24.fake
+  604  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 23 && hour <= 24) || (hour >= 00 && hour <= 04)){ print $1, $7 } }' lastsp24.fake
+  605  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 00 && hour <= 04)){ print $1, $7 } }' lastsp24.fake
+  606  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 0 && hour <= 4)){ print $1, $7 } }' lastsp24.fake
+  607  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 23 && hour <= 24)){ print $1, $7 } }' lastsp24.fake
+  608  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 0 && hour <= 1)){ print $1, $7 } }' lastsp24.fake
+  609  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 0 && hour <= 1)){ print $1, $7, $hour } }' lastsp24.fake
+  610  awk '{ split($7, time, ":"); hour = substr(time[1], 1, 2); if ((hour >= 0 && hour <= 1)){ print $1, $7, $time } }' lastsp24.fake
+  611  awk '{ split($7, time, ":"); hour = substr($7, 1, 2); if ((hour >= 0 && hour <= 1)){ print $1, $7, $hour } }' lastsp24.fake
+  612  awk '{ split($7, time, ":"); hour = substr($7, 1, 2); { print $hour } }' lastsp24.fake
+  613  awk '{ hour = substr($7, 1, 2); { print $hour } }' lastsp24.fake
+  614  awk ' print $1, $7 ' lastsp24.fake
+  615  awk '{print $1, $7}' lastsp24.fake
+  616  awk '{print $1, $7, $8}' lastsp24.fake
+  617  cat lastsp24.fake 
+  618  awk '$-4 >= 23 || $-4 <= 04 {print $1, $-4}' lastsp24.fake
+  619  awk '$(NF-4) >= 23 || $(NF-4) <= 04 {print $1, $(NF-4)}' lastsp24.fake
+  620  awk '$(NF-4) >= 23 || $(NF-4) <= 04 {print $1, $(NF-4), $(NF-3), $(NF-2), $(NF-1)}' lastsp24.fakeawk '$(NF-3) >= 23 || $(NF-3) <= 04 {print $1, $(NF-3)}' lastsp24.fake
+  621  awk '$(NF-3) >= 23 || $(NF-3) <= 04 {print $1, $(NF-3)}' lastsp24.fake
+  622  awk '$(NF-3) >= 23 {print $1, $(NF-3)}' lastsp24.fake
+  623  awk '$(NF-3) <= 04 {print $1, $(NF-3)}' lastsp24.fake
+  624  awk '{ if (($(NF-3) + 0) <= 4) print $1, $(NF-3) }' lastsp24.fake
+  625  awk '{ if (($(NF-3) + 0) >= 23 || ($(NF-3) + 0) <= 4) print $1, $(NF-3) }' lastsp24.fake
+  626  cd cs131/
+  627  cd Assignment3
+  628  awk '{ for (i=1; i<=NF; i++) { if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { split($i, time, ":"); print time[1]; break; } } }' lastsp24.fake
+  629  awk '{ for (i=1; i<=NF; i++) { if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { split($i, time, ":"); print $1, time[1]; break; } } }' lastsp24.fake
+  630  awk '{ 
+  631  for (i=1; i<=NF; i++) { 
+  632  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  633  split($i, time, ":"); 
+  634  if (time[1] >= 23 || time[1] <= 04) {
+  635  print $1, time[1]; 
+  636  }
+  637  break; 
+  638  } 
+  639  } 
+  640  }' lastsp24.fake
+  641  awk '{ 
+  642  for (i=1; i<=NF; i++) { 
+  643  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  644  split($i, time, ":"); 
+  645  if (time[1] >= 23 || time[1] <= 04) {
+  646  print $1, time[1]; 
+  647  }
+  648  break; 
+  649  } 
+  650  } 
+  651  }' lastsp24.fake | sort | uniq
+  652  awk '{ 
+  653  for (i=1; i<=NF; i++) { 
+  654  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  655  split($i, time, ":"); 
+  656  if (time[1] >= 23 || time[1] <= 04) {
+  657  print $1; 
+  658  }
+  659  break; 
+  660  } 
+  661  } 
+  662  }' lastsp24.fake | sort | uniq
+  663  awk '{ 
+  664  for (i=1; i<=NF; i++) { 
+  665  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  666  split($i, time, ":"); 
+  667  if (time[1] >= 23 || time[1] <= 04) {
+  668  print $1; 
+  669  }
+  670  break; 
+  671  } 
+  672  } 
+  673  }' lastsp24.fake | sort | uniq | wc -l
+  674  awk '{ 
+  675  for (i=1; i<=NF; i++) { 
+  676  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  677  split($i, time, ":"); 
+  678  if (time[1] >= 23 || time[1] <= 04) {
+  679  print $1; 
+  680  }
+  681  break; 
+  682  } 
+  683  } 
+  684  }' lastsp24.fake | sort | uniq > NightOwls.fake 
+  685  awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' NightOwls.fake
+  686  vi Assignment3.txt 
+  687  cat lastsp24.fake 
+  688  vi lastsp24.fake 
+  689  awk '{ 
+  690  for (i=1; i<=NF; i++) { 
+  691  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  692  split($i, time, ":"); 
+  693  if (time[1] >= 05 && time[1] <= 09) {
+  694  print $1, time[1]; 
+  695  }
+  696  break; 
+  697  } 
+  698  } 
+  699  }' lastsp24.fake | sort | uniq
+  700  awk '{ 
+  701  for (i=1; i<=NF; i++) { 
+  702  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  703  split($i, time, ":"); 
+  704  if (time[1] >= 05 || time[1] <= 09) {
+  705  print $1, time[1]; 
+  706  }
+  707  break; 
+  708  } 
+  709  } 
+  710  }' lastsp24.fake | sort | uniq
+  711  awk '{ 
+  712  for (i=1; i<=NF; i++) { 
+  713  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  714  split($i, time, ":"); 
+  715  if (time[1] >= 05 && time[1] <= 09) {
+  716  print $1, time[1]; 
+  717  }
+  718  break; 
+  719  } 
+  720  } 
+  721  }' lastsp24.fake | sort | uniq
+  722  vi lastsp24.fake 
+  723  awk '{ 
+  724  for (i=1; i<=NF; i++) { 
+  725  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  726  split($i, time, ":"); 
+  727  if (time[1] >= 05  time[1] <= 09) {
+  728  print $1; 
+  729  }
+  730  break; 
+  731  } 
+  732  } 
+  733  }' lastsp24.fake | sort | uniq
+  734  awk '{ 
+  735  for (i=1; i<=NF; i++) { 
+  736  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  737  split($i, time, ":"); 
+  738  if (time[1] >= 05  time[1] <= 09) {
+  739  print $1; 
+  740  }
+  741  break; 
+  742  } 
+  743  } 
+  744  }' lastsp24.fake | sort | uniq > EarlyBirds.fake
+  745  cat NightOwls.fake 
+  746  cat EarlyBirds.fake 
+  747  awk '{ 
+  748  for (i=1; i<=NF; i++) { 
+  749  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  750  split($i, time, ":"); 
+  751  if (time[1] >= 05 &&  time[1] <= 09) {
+  752  print $1; 
+  753  }
+  754  break; 
+  755  } 
+  756  } 
+  757  }' lastsp24.fake | sort | uniq > EarlyBirds.fake
+  758  cat EarlyBirds.fake 
+  759  awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}' EarlyBirds.fake
+  760  vi Assignment3.txt 
+  761  awk '$1 ~ /^t/ {print $1}' lastsp24.fake 
+  762  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+  763  cd ..
+  764  cat passwd.fake 
+  765  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake 
+  766  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1, $3}' passwd.fake
+  767  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1, $3}' passwd.fake | sort
+  768  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake | sort
+  769  sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+  770  cd Assignment3
+  771  vi Assignment3.txt 
+  772  cd ..
+  773  mv passwd.fake Assignment3/
+  774  mv last.fake Assignment3/
+  775  ls
+  776  mv ps.fake Assignment3/
+  777  cd Assignment3
+  778  ls
+  779  awk '{ 
+  780  for (i=1; i<=NF; i++) { 
+  781  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  782  split($i, time, ":"); 
+  783  if (time[1] >= 23 || time[1] <= 04) {
+  784  print $1, time[1]; 
+  785  }
+  786  break; 
+  787  } 
+  788  } 
+  789  }' lastsp24.fake | sort | uniq
+  790  awk '{ 
+  791  for (i=1; i<=NF; i++) { 
+  792  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  793  split($i, time, ":"); 
+  794  if (time[1] >= 23 || time[1] <= 04) {
+  795  print $1; 
+  796  }
+  797  break; 
+  798  } 
+  799  } 
+  800  }' lastsp24.fake | sort | uniq 
+  801  awk '{ 
+  802  for (i=1; i<=NF; i++) { 
+  803  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  804  split($i, time, ":"); 
+  805  if (time[1] >= 23 || time[1] <= 04) {
+  806  print $1; 
+  807  }
+  808  break; 
+  809  } 
+  810  } 
+  811  }' lastsp24.fake | sort | uniq | wc -l
+  812  awk '{ 
+  813  for (i=1; i<=NF; i++) { 
+  814  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  815  split($i, time, ":"); 
+  816  if (time[1] >= 23 || time[1] <= 04) {
+  817  print $1, time[1]; 
+  818  }
+  819  break; 
+  820  } 
+  821  } 
+  822  }' lastsp24.fake | sort | uniq | wc -l
+  823  awk '{ 
+  824  for (i=1; i<=NF; i++) { 
+  825  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  826  split($i, time, ":"); 
+  827  if (time[1] >= 05 && time[1] <= 09) {
+  828  print $1; 
+  829  }
+  830  break; 
+  831  } 
+  832  } 
+  833  }' lastsp24.fake | sort | uniq
+  834  awk '{ 
+  835  for (i=1; i<=NF; i++) { 
+  836  if ($i ~ /^[0-9][0-9]:[0-9][0-9]$/) { 
+  837  split($i, time, ":"); 
+  838  if (time[1] >= 05 && time[1] <= 09) {
+  839  print $1; 
+  840  }
+  841  break; 
+  842  } 
+  843  } 
+  844  }' lastsp24.fake | sort | uniq | wc -l
+  845  history > cmds.log
+  846  vi cmds.log
+  847  cd ..
+  848  git status
+  849  git add Assignment3/
+  850  git commit -m "Assignment3"
+  851  git push
+  852  git remote add orign
+  853  git remote add origin https://github.com/QMay17/cs131.git
+  854  git status
+  855  git log oneline -n5
+  856  git push origin
+  857  git status
+  858  git log --oneline -n5
+  859  git push
+  860  git push --set-upstream origin master
+  861  cd cs131/
+  862  mkdir Worksheet5
+  863  cd Worksheet5
+  864  mkdir United States
+  865  ls
+  866  rm United/
+  867  rmdir United/
+  868  rmdir States/
+  869  mkdir "United States"
+  870  ls
+  871  cd United\ States/
+  872  cd ..
+  873  cd United\ States/
+  874  cd cs131/Worksheet5
+  875  ls
+  876  vi script.sh
+  877  cat script.sh 
+  878  bash script.sh 
+  879  cd ..
+  880  vi test.sh
+  881  bash test.sh 
+  882  vi test.sh 
+  883  bash test.sh 
+  884  vi test.sh 
+  885  echo Hello
+  886  ./test.sh
+  887  chmod +x ./test.sh 
+  888  ./test.sh 
+  889  rm test.sh 
+  890  ls
+  891  cd Worksheet5
+  892  chmod +x ./script.sh 
+  893  ./script.sh 
+  894  vi script.sh 
+  895  ./script.sh 
+  896  vi script.sh 
+  897  ./script.sh 
+  898  vi script.sh 
+  899  ./script.sh 
+  900  cd United\ States/
+  901  ls
+  902  touch Music.txt
+  903  touch Entertainment.txt
+  904  touch Gaming.txt
+  905  c
+  906  touch Comedy.txt
+  907  cd ..
+  908  ./script.sh 
+  909  vi script.sh 
+  910  ./script.sh 
+  911  vi script.sh 
+  912  ./script.sh 
+  913  mv script.sh cs131/
+  914  cd ..
+  915  mv script.sh cs131/
+  916  cd Worksheet5
+  917  cp script.sh cs131/
+  918  cat script.sh 
+  919  cd..
+  920  cd ..
+  921  vi script.sh
+  922  chmod -x script.sh 
+  923  ./s
+  924  chmod +x ./script.sh 
+  925  ./script.sh 
+  926  vi script.sh 
+  927  ./script.sh 
+  928  cd Worksheet5/United\ States/
+  929  ls
+  930  cat Comedy.txt 
+  931  cat Gaming.txt 
+  932  cat Entertainment.txt 
+  933  cd .
+  934  cd ..
+  935  grep "United States, Music" Global\ YouTube\ Statistics.csv 
+  936  ls
+  937  cat ws5.txt 
+  938  grep "United States" Global\ YouTube\ Statistics.csv 
+  939  clear
+  940  grep "United States;Music" Global\ YouTube\ Statistics.csv 
+  941  grep "/United States/ && /Music/" Global\ YouTube\ Statistics.csv 
+  942  grep "Music" Global\ YouTube\ Statistics.csv 
+  943  vi script.sh 
+  944  grep "United States" Global\ YouTube\ Statistics.csv | sort -t ',
+  945  grep "United States" Global\ YouTube\ Statistics.csv | grep "Music"
+  946  grep "United States" Global\ YouTube\ Statistics.csv | wc -l
+  947  grep "United States" Global\ YouTube\ Statistics.csv | grep "Music" | wc -l
+  948  grep "United States" Global\ YouTube\ Statistics.csv | grep "Entertainment" | wc -
+  949  vi script.sh 
+  950  ./script.sh 
+  951  cd Worksheet5
+  952  cd United\ States/
+  953  cat Music.txt 
+  954  cd ..
+  955  cat ws5.txt
+  956  vi ws5.txt
+  957  mv ws5.txt cs131/Worksheet5/
+  958  mv ws5.txt /cs131/Worksheet5
+  959  mv ws5.txt /cs131/Worksheet5/
+  960  mv ws5.txt cs131/Worksheet5
+  961  mv ws5.txt cs131/Worksheet5/
+  962  ls
+  963  mv ws5.txt Worksheet5/
+  964  cd ..
+  965  ls
+  966  cd cs131/Worksheet5
+  967  ls
+  968  rm script.sh 
+  969  cd ..
+  970  mv script.sh Worksheet5/
+  971  cd ..
+  972  ls
+  973  cd cs131/Worksheet5
+  974  ls
+  975  ./script.sh 
+  976  vi script.sh 
+  977  cd ..
+  978  mv Global\ YouTube\ Statistics.csv Worksheet5/
+  979  cd Worksheet
+  980  cd Worksheet5
+  981  ./script.sh 
+  982  vi script.sh 
+  983  cat script.sh 
+  984  rm script.sh 
+  985  cd ..
+  986  vi script.sh
+  987  chmod +x ./script.sh 
+  988  ./script.sh 
+  989  cd ..
+  990  cd cs131/
+  991  mv Worksheet5/Global\ YouTube\ Statistics.csv ..
+  992  ls
+  993  mv Worksheet5/Global\ YouTube\ Statistics.csv cs131/
+  994  cd ..
+  995  mv cs131/Worksheet5/Global\ YouTube\ Statistics.csv cs131/
+  996  cd cs131/Worksheet5
+  997  ls
+  998  cd cs131/
+  999  ls
+ 1000  ./script.sh 
+ 1001  cd Worksheet5
+ 1002  ls
+ 1003  cd ..
+ 1004  mv script.sh Worksheet5/
+ 1005  cd ..
+ 1006  ls
+ 1007  cd cs131/Worksheet5
+ 1008  ls
+ 1009  ./script.sh 
+ 1010  cd ..
+ 1011  cd Worksheet5
+ 1012  vi script.sh 
+ 1013  ./script.sh 
+ 1014  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ 1015  ls
+ 1016  ./script.sh 
+ 1017  cat Global\ YouTube\ Statistics.csv 
+ 1018  ls
+ 1019  cat script.sh 
+ 1020  ./script.sh 
+ 1021  cd ..
+ 1022  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ 1023  ls
+ 1024  cd ..
+ 1025  cd cs131/Worksheet5
+ 1026  cd ..
+ 1027  cp Worksheet5/script.sh cs131/
+ 1028  cd ..
+ 1029  cp cs131/Worksheet5/script.sh cs131/
+ 1030  cd cs131/
+ 1031  ls
+ 1032  ./script.sh 
+ 1033  vi script.sh 
+ 1034  ./script.sh 
+ 1035  cat script.sh 
+ 1036  chmod +x ./script.sh 
+ 1037  ./script.sh 
+ 1038  cat ws5.txt 
+ 1039  rm ws5.txt 
+ 1040  ./script.sh 
+ 1041  cat ws5.txt 
+ 1042  rm ws5.txt
+ 1043  cd Worksheet5/United\ States/
+ 1044  wc -l Music.txt 
+ 1045  wc -l Entertainment.txt 
+ 1046  cd ..
+ 1047  grep "United States" Global\ YouTube\ Statistics.csv | grep "Entertainment" | wc -l
+ 1048  cat script.sh 
+ 1049  rm script.sh 
+ 1050  rm ws5.txt 
+ 1051  ls
+ 1052  cd United\ States/
+ 1053  rm Music.txt 
+ 1054  rm Entertainment.txt 
+ 1055  rm Gaming.txt 
+ 1056  rm Comedy.txt 
+ 1057  cd ..
+ 1058  rmdir United\ States/
+
+________________________________________________________________________
+ 1059  mkdir "United States"	// creating folder and files	
+ 1060  cd United\ States/ 
+ 1061  touch Music.txt
+ 1062  touch Entertainment.txt
+ 1063  touch Gaming.txt
+ 1064  touch Comedy.txt
+ 1065  cd ..
+ 1066  vi script.sh		// writing details of the code
+ 1067  chmod +x ./script.sh 	// give execution permission to the file
+ 1068  ./script.sh 		// execute the code
+ 1069  ls			// to check for all necessary files and folder
+ 1070  cat ws5.txt 		// to check if the output is correct 
+ 1083  history > cmds.log
