@@ -1,0 +1,179 @@
+Afghanistan,5
+Albania,12
+Algeria,12
+Andorra,1
+Angola,1
+Argentina,19
+Armenia,2
+Australia,50
+Austria,36
+Azerbaijan,1
+Bahrain,1
+Bangladesh,6
+Barbados,1
+Belarus,5
+Belgium,19
+Belize,4
+Benin,1
+Bhutan,2
+Bolivia,4
+Bosnia and Herzegovina,11
+Botswana,2
+Brazil,93
+Brunei,2
+Bulgaria,27
+Burundi,1
+Cambodia,4
+Cameroon,4
+Canada,109
+Central African Republic,1
+Chad,3
+Chile,32
+Colombia,16
+Costa Rica,4
+Cote d'Ivoire,1
+Country,1
+Croatia,32
+Cuba,3
+Cyprus,4
+Czech Republic,46
+District of Columbia,1
+Djibouti,1
+Dominican Republic,4
+Ecuador,9
+Egypt,16
+El Salvador,1
+Equatorial Guinea,2
+Eritrea,1
+Estonia,13
+Eswatini,2
+Ethiopia,2
+Federated States of Micronesia,1
+Fiji,4
+Finland,30
+France,46
+Gabon,1
+Georgia,7
+Germany,122
+Ghana,2
+Greece,33
+Grenada,2
+Guatemala,3
+Guinea,1
+Guyana,3
+Haiti,1
+Honduras,3
+Hungary,27
+Iceland,8
+India,125
+Indonesia,38
+Iran,33
+Iraq,5
+Ireland,19
+Israel,25
+Italy,66
+Jamaica,5
+Japan,38
+Jordan,2
+Kazakhstan,10
+Kenya,9
+Kuwait,1
+Kyrgyzstan,2
+Laos,3
+Latvia,14
+Lebanon,3
+Lesotho,1
+Liberia,2
+Libya,5
+Liechtenstein,2
+Lithuania,10
+Luxembourg,3
+Madagascar,3
+Malawi,2
+Malaysia,19
+Maldives,1
+Mali,1
+Malta,3
+Marshall Islands,1
+Mauritania,1
+Mauritius,1
+Mexico,36
+Moldova,2
+Monaco,2
+Mongolia,3
+Montenegro,9
+Morocco,13
+Mozambique,3
+Myanmar,4
+Namibia,3
+Nepal,9
+New Zealand,20
+Nicaragua,2
+Niger,1
+Nigeria,12
+North Macedonia,13
+Norway,7
+Oman,3
+Pakistan,19
+Palau,1
+Panama,5
+Papua New Guinea,2
+Paraguay,2
+People's Republic of China,210
+Peru,11
+Philippines,54
+Poland,88
+Portugal,38
+Qatar,2
+Republic of the Congo,1
+Romania,27
+Russia,85
+Rwanda,1
+Saint Lucia,1
+Samoa,1
+San Marino,1
+Saudi Arabia,11
+Senegal,2
+Serbia,23
+Seychelles,1
+Sierra Leone,1
+Singapore,1
+Slovakia,25
+Slovenia,17
+Solomon Islands,1
+Somalia,1
+South Africa,24
+South Korea,35
+South Sudan,1
+Spain,53
+Sri Lanka,8
+Sudan,4
+Suriname,1
+Sweden,14
+Switzerland,33
+Syria,6
+Taiwan,6
+Tajikistan,1
+Tanzania,8
+Thailand,20
+The Bahamas,2
+The Gambia,1
+Timor-Leste,1
+Togo,1
+Trinidad and Tobago,1
+Tunisia,3
+Turkey,60
+Turkmenistan,2
+Uganda,3
+Ukraine,27
+United Arab Emirates,6
+United Kingdom,145
+United States of America,626
+Uruguay,5
+Uzbekistan,1
+Vanuatu,1
+Venezuela,10
+Vietnam,6
+Yemen,4
+Zambia,3
+Zimbabwe,4
