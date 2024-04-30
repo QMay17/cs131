@@ -1,3 +1,6 @@
+# This file creates graphs for all columns vs Potability
+
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
