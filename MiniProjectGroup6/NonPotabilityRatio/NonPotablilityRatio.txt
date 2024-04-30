@@ -1,0 +1,149 @@
+Sweden,0.0714286
+North Macedonia,0.153846
+Uruguay,0.2
+Venezuela,0.2
+Fiji,0.25
+Honduras,0.333333
+Lebanon,0.333333
+Luxembourg,0.333333
+Madagascar,0.333333
+Oman,0.333333
+Tunisia,0.333333
+Uganda,0.333333
+Vietnam,0.333333
+Ukraine,0.37037
+Egypt,0.375
+Belarus,0.4
+Panama,0.4
+Slovenia,0.411765
+Norway,0.428571
+Czech Republic,0.434783
+Serbia,0.434783
+Chile,0.4375
+Slovakia,0.44
+Ecuador,0.444444
+Saudi Arabia,0.454545
+Australia,0.46
+Israel,0.48
+Algeria,0.5
+Belize,0.5
+Bhutan,0.5
+Brunei,0.5
+Cameroon,0.5
+Colombia,0.5
+Costa Rica,0.5
+Eswatini,0.5
+Ethiopia,0.5
+Germany,0.5
+Ghana,0.5
+Grenada,0.5
+Kyrgyzstan,0.5
+Liberia,0.5
+Liechtenstein,0.5
+Malawi,0.5
+Nigeria,0.5
+Papua New Guinea,0.5
+Sudan,0.5
+The Bahamas,0.5
+Turkmenistan,0.5
+Canada,0.504587
+People's Republic of China,0.533333
+United States of America,0.533546
+Kenya,0.555556
+Romania,0.555556
+Georgia,0.571429
+Ireland,0.578947
+Portugal,0.578947
+Brazil,0.580645
+Afghanistan,0.6
+Iraq,0.6
+Thailand,0.6
+Croatia,0.625
+Iceland,0.625
+Sri Lanka,0.625
+Malaysia,0.631579
+Pakistan,0.631579
+Finland,0.633333
+United Kingdom,0.634483
+Bosnia and Herzegovina,0.636364
+Iran,0.636364
+New Zealand,0.65
+Albania,0.666667
+Bangladesh,0.666667
+Chad,0.666667
+Cuba,0.666667
+Guatemala,0.666667
+Guyana,0.666667
+Laos,0.666667
+Malta,0.666667
+Mexico,0.666667
+Mongolia,0.666667
+Mozambique,0.666667
+Namibia,0.666667
+South Africa,0.666667
+Syria,0.666667
+United Arab Emirates,0.666667
+Zambia,0.666667
+India,0.672
+Philippines,0.685185
+Lithuania,0.7
+Japan,0.710526
+Poland,0.715909
+Greece,0.727273
+Argentina,0.736842
+Bulgaria,0.740741
+Hungary,0.740741
+Cambodia,0.75
+Dominican Republic,0.75
+Tanzania,0.75
+Yemen,0.75
+Russia,0.764706
+Turkey,0.766667
+Montenegro,0.777778
+Nepal,0.777778
+Belgium,0.789474
+Jamaica,0.8
+Libya,0.8
+Peru,0.818182
+Taiwan,0.833333
+Morocco,0.846154
+Latvia,0.857143
+South Korea,0.857143
+Austria,0.861111
+Italy,0.863636
+Kazakhstan,0.9
+France,0.913043
+Indonesia,0.921053
+Estonia,0.923077
+Switzerland,0.939394
+Spain,0.962264
+Andorra,1
+Armenia,1
+Azerbaijan,1
+Barbados,1
+Benin,1
+Bolivia,1
+Cote d'Ivoire,1
+Cyprus,1
+District of Columbia,1
+Eritrea,1
+Federated States of Micronesia,1
+Haiti,1
+Kuwait,1
+Maldives,1
+Marshall Islands,1
+Monaco,1
+Myanmar,1
+Palau,1
+Saint Lucia,1
+Samoa,1
+San Marino,1
+Singapore,1
+Solomon Islands,1
+Somalia,1
+South Sudan,1
+Tajikistan,1
+Timor-Leste,1
+Trinidad and Tobago,1
+Uzbekistan,1
+Vanuatu,1
