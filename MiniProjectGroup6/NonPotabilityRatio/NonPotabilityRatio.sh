@@ -8,6 +8,6 @@ awk -F';' '{ city_count[$3]++ } END { for (country in city_count) print country 
 
 #Calculating the ratio of the of cities with non-portable water and the number of cities in each country
 # Join the data from both files using the country name as the key, then calculate the ratio
-join -t',' NumOfCities.txt NotPotable.txt | awk -F',' '{ ratio = $3 / $2; print $1 "," ratio }' | sort -t ',' -k2n > NonPotablilityRatio.txt
+join -t',' NumOfCities.txt NotPotable.txt | awk -F',' '{ ratio = $3 / $2; print $1 "," ratio }' | sort -t ',' -k2n > NonPotabilityRatio.txt
 #Note: The smaller the number, the better the water quality of the country.
 
